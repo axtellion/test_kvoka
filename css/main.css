@@ -150,6 +150,14 @@ h1 {
   border-color: var(--accent-color);
 }
 
+.preTitle {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--third-tittle-color);
+  margin-bottom: 15px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -201,4 +209,57 @@ h1 {
 }
 .hero__btn:hover svg {
   fill: black;
+}
+
+.about {
+  padding: 100px 376px;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  gap: 101px;
+}
+
+.about__title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 53px;
+}
+
+.about__wrap {
+  width: 561px;
+}
+
+.about__text {
+  color: var(--second-text-color);
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+.about__text-end {
+  color: var(--second-text-color);
+  line-height: 22px;
+  margin-bottom: 65px;
+}
+
+.about__comit {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.comit__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.comit__title {
+  color: var(--second-title-color);
+  font-size: 16px;
+}
+
+.comit__text {
+  color: var(--third-text-color);
+  text-transform: uppercase;
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
