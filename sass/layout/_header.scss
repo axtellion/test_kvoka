@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 45px;
+    padding-right: 45px;
+
+    
+    margin-bottom: 152px;
+}
+
+.header__call{
+    display: flex;
+    gap: 25px;
+}

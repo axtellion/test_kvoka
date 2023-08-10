@@ -1,0 +1,16 @@
+.call{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.call__text{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.call__svg{
+    width: 10px;
+    height: 10px;
+}

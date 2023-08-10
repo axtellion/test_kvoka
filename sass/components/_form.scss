@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 179px;
+
+  div:first-child {
+    margin-right: 10px;
+  }
+
+  div:nth-child(2) {
+    margin-right: 34px;
+  }
+}
+
+.form__input {
+  width: 344px;
+  height: 54px;
+
+  padding: 15px 20px;
+
+  color: var(--first-text-color);
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(3px);
+  border: 1px solid white;
+  border-radius: 42px;
+  outline: none;
+}
+
+.form__input::placeholder {
+  color: var(--first-text-color);
+}
+
+.form__input:hover, .form__input:focus{
+    border-color: var(--accent-color);
+}

@@ -10,10 +10,97 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header container"></header>
+    <main>
+      <section class="hero container">
+        <header class="header container">
+          <div class="logo">
+            <a href="/">
+              <svg class="logo" width="96" height="85">
+                <use href="./images/icons.svg#icon-logo"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="nav">
+            <ul class="nav__item">
+              <li class="nav__link">
+                <a href="/" class="nav__list">materials</a>
+              </li>
+              <li class="nav__link">
+                <a href="/" class="nav__list">services</a>
+              </li>
+              <li class="nav__link">
+                <a href="/" class="nav__list">testimonials</a>
+              </li>
+              <li class="nav__link">
+                <a href="/" class="nav__list">contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__call">
+            <a href="/" class="call">
+              <svg class="" width="16" height="16">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <p class="call__text">
+                (096) 430-40-50
+                <svg class="call__svg" width="10" height="5">
+                  <use href="./images/icons.svg#icon-arrow-bot"></use>
+                </svg>
+              </p>
+            </a>
+            <button type="button" class="btn">Back call</button>
+          </div>
+        </header>
+        <h1 class="hero__title">your best choice for all <br> your roofing needs</h1>
+        <p class="hero__text">
+          Whether you require repairs, replacements, or new <br> installations, our
+          team of skilled professionals is ready to exceed
+        </p>
+        <form action="#" class="form">
+          <div class="form__wrap">
+            <input
+              type="text"
+              id="user-name"
+              name="user-name"
+              placeholder="Your name*"
+              class="form__input"
+            />
+          </div>
+          <div class="form__wrap">
+            <input
+              type="tel"
+              id="user-phone"
+              name="user-phone"
+              placeholder="Phone number *"
+              class="form__input"
+              required
+            />
+            
+          </div>
+          <div class="form-btn__wrap">
+            <button type="button" class="btn">Back call</button>
+          </div>
+        </form>
+        <button class="hero__btn">
+            <svg class="" width="20" height="20">
+                <use href="./images/icons.svg#icon-arrow-down"></use>
+              </svg>
+        </button>
+      </section>
+      <section class="about container">
+        <h3 class="preTitle">about us</h3>
+      </section>
+    </main>
     <script src="/js/index.js"></script>
   </body>
 </html>
