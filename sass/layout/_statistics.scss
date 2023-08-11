@@ -1,8 +1,11 @@
 .statistics {
+  position: relative;
   background-color: white;
   padding: 150px 554px 150px 425px;
 
   text-align: center;
+
+    overflow: hidden;
 }
 
 .statistics__title {
@@ -77,4 +80,16 @@
 
 .statistics__content-active {
   background-color: #fafafc;
+}
+
+.statistics__img-bg{
+  position: absolute;
+  left: 0;
+  top: -100px;
+}
+
+.statistics__img-bg2{
+  position: absolute;
+  bottom: -90px;
+  right: 0;
 }

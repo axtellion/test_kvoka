@@ -486,9 +486,11 @@ h1 {
 }
 
 .statistics {
+  position: relative;
   background-color: white;
   padding: 150px 554px 150px 425px;
   text-align: center;
+  overflow: hidden;
 }
 
 .statistics__title {
@@ -554,4 +556,61 @@ h1 {
 
 .statistics__content-active {
   background-color: #fafafc;
+}
+
+.statistics__img-bg {
+  position: absolute;
+  left: 0;
+  top: -100px;
+}
+
+.statistics__img-bg2 {
+  position: absolute;
+  bottom: -90px;
+  right: 0;
+}
+
+.gallery {
+  background-color: #fafafc;
+  text-align: center;
+  padding: 130px 315px;
+}
+
+.gallery .preTitle {
+  text-align: start;
+}
+
+.gallery__title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  text-align: start;
+}
+
+.gallery__list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.gallery__row {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.gallery__img {
+  border-radius: 15px;
+}
+
+.gallery_btn {
+  width: 207px;
+  padding: 15px 20px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 60px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: #52503B;
 }/*# sourceMappingURL=main.css.map */
