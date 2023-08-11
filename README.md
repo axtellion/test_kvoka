@@ -1,4 +1,4 @@
 # test_kvoka
 
 mobail 480px
-deck 1920px
+desktop 1920px
