@@ -1,12 +1,12 @@
 :root {
   --main-title-color: #ffffff;
-  --second-title-color: #45525B;
-  --third-tittle-color: #2877BA;
+  --second-title-color: #45525b;
+  --third-tittle-color: #2877ba;
   --first-text-color: #ffffff;
   --second-text-color: #333333;
-  --third-text-color: #6F7278;
+  --third-text-color: #6f7278;
   --accent-text-color: rgba(255, 255, 255, 0.6);
-  --accent-color: #F19817;
+  --accent-color: #f19817;
 }
 
 p,
@@ -380,6 +380,8 @@ h1 {
   background-color: white;
   display: flex;
   gap: 101px;
+  background-color: #fafafc;
+  overflow: hidden;
 }
 
 .about__title {
@@ -567,7 +569,7 @@ h1 {
 .statistics__img-bg {
   position: absolute;
   left: 0;
-  top: -100px;
+  top: -70px;
   display: inline-block;
 }
 
@@ -785,7 +787,7 @@ h1 {
 }
 
 .footer {
-  background-color: #292C32;
+  background-color: #292c32;
   padding: 110px 315px 62px 315px;
 }
 
