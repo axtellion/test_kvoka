@@ -77,6 +77,14 @@ h1 {
   }
 }
 
+.logo {
+  margin-right: 611px;
+}
+
+.nav {
+  margin-right: 365px;
+}
+
 .nav__item {
   display: flex;
   gap: 27px;
@@ -323,7 +331,6 @@ h1 {
 
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-left: 45px;
   padding-right: 45px;
@@ -655,6 +662,7 @@ h1 {
   width: 584px;
   height: 297px;
   padding: 30px;
+  border: 1px solid rgba(82, 80, 59, 0.1);
 }
 
 .testimonials__star-box {
@@ -836,6 +844,7 @@ h1 {
   opacity: 0.8;
   display: flex;
   gap: 8px;
+  align-items: center;
 }
 
 .copyright__box {
