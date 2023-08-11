@@ -276,12 +276,12 @@ h1 {
 .slider .slick-arrow.slick-prev {
   left: 60px;
   transform: translateY(-50%) translateX(-100%);
-  background: url("../../images/arrow-left.svg") center/60% no-repeat;
+  background: url("../images/arrow-left.svg") center/60% no-repeat;
 }
 
 .slider .slick-arrow.slick-next {
   right: 0;
-  background: url("../../images/arrow-right.svg") center/60% no-repeat;
+  background: url("../images/arrow-right.svg") center/60% no-repeat;
 }
 
 .slider .slick-arrow.slick-disabled {
@@ -338,7 +338,7 @@ h1 {
 .hero {
   padding-top: 15px;
   text-align: center;
-  background-image: url(../../images/hero_bg.jpg);
+  background-image: url(../images/hero_bg.jpg);
   height: 941px;
 }
 
@@ -430,7 +430,7 @@ h1 {
 .materials {
   background-color: white;
   padding: 150px 220px;
-  background-image: url(../../images/materials-bg.jpg);
+  background-image: url(../images/materials-bg.jpg);
 }
 
 .materials__box {
@@ -702,12 +702,12 @@ h1 {
 .testimonials__box .slick-arrow.slick-prev {
   right: 390px;
   transform: translateY(-50%) translateX(-100%);
-  background: url("../../images/arrow-left.svg") center/60% no-repeat;
+  background: url("../images/arrow-left.svg") center/60% no-repeat;
 }
 
 .testimonials__box .slick-arrow.slick-next {
   right: 350px;
-  background: url("../../images/arrow-right.svg") center/60% no-repeat;
+  background: url("../images/arrow-right.svg") center/60% no-repeat;
 }
 
 .testimonials__box .slick-arrow.slick-disabled {
