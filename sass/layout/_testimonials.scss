@@ -130,13 +130,24 @@
   background: url(../images/arrow-left.svg) center/60% no-repeat;
 }
 
+.testimonials__box .slick-arrow.slick-prev:hover {
+  background-color: var(--accent-color);
+}
+
 .testimonials__box .slick-arrow.slick-next {
   right: 350px;
   background: url(../images/arrow-right.svg) center/60% no-repeat;
 }
 
+.testimonials__box .slick-arrow.slick-next:hover {
+  background-color: var(--accent-color);
+}
+
+.testimonials__box .slick-arrow.slick-disabled:hover{
+background-color: transparent;
+}
+
 .testimonials__box .slick-arrow.slick-disabled {
   opacity: 0.2;
-
   cursor: auto;
 }

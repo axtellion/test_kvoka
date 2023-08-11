@@ -170,6 +170,20 @@ width: 100%;
   cursor: auto;
 }
 
+.slider .slick-arrow.slick-prev:hover {
+  background-color: var(--accent-color);
+}
+
+
+.slider .slick-arrow.slick-next:hover {
+  background-color: var(--accent-color);
+}
+
+.slider .slick-arrow.slick-disabled:hover{
+background-color: transparent;
+}
+
+
 //--------------------------------------------------------------------------
 
 .slider__item.slick-slide {
@@ -214,4 +228,17 @@ width: 100%;
   opacity: 0.2;
 
   cursor: auto;
+}
+
+.work__box  .slick-arrow.slick-prev:hover {
+  background-color: var(--accent-color);
+}
+
+
+.work__box  .slick-arrow.slick-next:hover {
+  background-color: var(--accent-color);
+}
+
+.work__box  .slick-arrow.slick-disabled:hover{
+background-color: transparent;
 }
