@@ -276,12 +276,12 @@ h1 {
 .slider .slick-arrow.slick-prev {
   left: 60px;
   transform: translateY(-50%) translateX(-100%);
-  background: url("/images/arrow-left.svg") center/60% no-repeat;
+  background: url(../images/arrow-left.svg) center/60% no-repeat;
 }
 
 .slider .slick-arrow.slick-next {
   right: 0;
-  background: url("/images/arrow-right.svg") center/60% no-repeat;
+  background: url(../images/arrow-right.svg) center/60% no-repeat;
 }
 
 .slider .slick-arrow.slick-disabled {
@@ -338,7 +338,7 @@ h1 {
 .hero {
   padding-top: 15px;
   text-align: center;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url("../../images/hero-bg.jpg");
   height: 941px;
 }
 
