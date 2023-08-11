@@ -474,7 +474,7 @@ h1 {
 
 .work__box {
   position: relative;
-  background-color: white;
+  background-color: #FAFAFC;
   padding: 130px 315px;
 }
 
@@ -483,4 +483,75 @@ h1 {
   font-weight: 500;
   color: var(--second-title-color);
   margin-bottom: 60px;
+}
+
+.statistics {
+  background-color: white;
+  padding: 150px 554px 150px 425px;
+  text-align: center;
+}
+
+.statistics__title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.statistics__text {
+  font-size: 18px;
+  color: var(--third-text-color);
+  margin-bottom: 60px;
+}
+
+.statistics__box {
+  display: flex;
+}
+
+.statistics__img {
+  border-radius: 30px;
+  margin-right: 90px;
+}
+
+.statistics__content-box {
+  padding-top: 31.5px;
+  padding-bottom: 31.5px;
+}
+
+.statistics__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.statistics__item {
+  width: 300px;
+  padding: 23px 0 23px 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.statistics__number {
+  color: var(--third-tittle-color);
+  text-align: start;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.statistics__content-title {
+  color: var(--second-title-color);
+  text-align: start;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.statistics__content-text {
+  color: var(--third-text-color);
+  text-align: start;
+  font-size: 14px;
+}
+
+.statistics__content-active {
+  background-color: #fafafc;
 }/*# sourceMappingURL=main.css.map */
