@@ -1,10 +1,21 @@
-.nav{
-  margin-right: 365px;
+.nav {
+  padding: 10px;
+
+  margin-bottom: 30px;
+  @media screen and (min-width: 1920px) {
+    padding: 0;
+    margin: 0;
+    margin-right: 365px;
+  }
 }
 
 .nav__item {
   display: flex;
-  gap: 27px;
+  justify-content: space-between;
+  @media screen and (min-width: 1920px) {
+    justify-content: center;
+    gap: 27px;
+  }
 }
 
 .nav__list {

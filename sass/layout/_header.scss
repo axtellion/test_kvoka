@@ -1,15 +1,19 @@
-.header{
+.header {
+  @media screen and (min-width: 1920px) {
     display: flex;
     align-items: center;
 
     padding-left: 45px;
     padding-right: 45px;
 
-    
     margin-bottom: 152px;
+  }
 }
 
-.header__call{
+.header__call {
+display: none;
+  @media screen and (min-width: 1920px) {
     display: flex;
-    gap: 25px;
+  gap: 25px;
+  }
 }

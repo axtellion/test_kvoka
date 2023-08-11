@@ -3,6 +3,15 @@ $(document).ready(function () {
     slidesToShow: 4,
     infinite: false,
     draggable: false,
+    responsive: [
+      {
+        breakpoint: 1920,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 });
 		
@@ -11,5 +20,14 @@ $(document).ready(function () {
     slidesToShow: 3,
     infinite: false,
     draggable: false,
+    responsive: [
+      {
+        breakpoint: 1920,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 });

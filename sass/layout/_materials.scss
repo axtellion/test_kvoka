@@ -1,8 +1,12 @@
 .materials {
   background-color: white;
-  padding: 150px 220px;
+  padding: 15px 22px;
 
   background-image: url(../images/materials-bg.jpg);
+
+  @media screen and (min-width: 1920px) {
+    padding: 150px 220px;
+  }
 }
 
 .materials__box {
@@ -11,14 +15,18 @@
 
 .materials__title {
   color: var(--second-title-color);
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 500;
 
   margin-bottom: 40px;
+
+  @media screen and (min-width: 1920px) {
+    font-size: 48px;
+  }
 }
 
 .materials__list {
-  width: 561px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,11 +40,20 @@
   cursor: pointer;
 
   margin-bottom: 66px;
+
+  @media screen and (min-width: 1920px) {
+    width: 561px;
+  }
 }
 
 .materials__item {
-  font-size: 18px;
-  padding: 4px 24px;
+  font-size: 14px;
+  padding: 2px 14px;
+
+  @media screen and (min-width: 1920px) {
+    font-size: 18px;
+    padding: 4px 24px;
+  }
 }
 
 .materials__item:hover {

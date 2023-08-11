@@ -2,14 +2,24 @@
     position: relative;
     background-color: #FAFAFC;
 
-    padding: 130px 315px;
+    padding: 13px 31px;
+
+    @media screen and (min-width: 1920px) {
+     padding: 130px 315px;
+  }
 }
 
 .work__title{
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 500;
 
     color: var(--second-title-color);
 
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 1920px) {
+    font-size: 48px;
+
     margin-bottom: 60px;
+  }
 }
