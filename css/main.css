@@ -294,6 +294,7 @@ h1 {
 
 .slider .slick-arrow.slick-disabled {
   opacity: 0.2;
+  cursor: auto;
 }
 
 .slider__item.slick-slide {
@@ -327,6 +328,7 @@ h1 {
 
 .work__box .slick-arrow.slick-disabled {
   opacity: 0.2;
+  cursor: auto;
 }
 
 .header {
@@ -730,6 +732,7 @@ h1 {
 
 .testimonials__box .slick-arrow.slick-disabled {
   opacity: 0.2;
+  cursor: auto;
 }
 
 .information {
@@ -845,6 +848,10 @@ h1 {
   display: flex;
   gap: 8px;
   align-items: center;
+}
+
+.footer__link:hover {
+  opacity: 1;
 }
 
 .copyright__box {

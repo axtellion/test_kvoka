@@ -58,6 +58,10 @@
   align-items: center;
 }
 
+.footer__link:hover{
+  opacity: 1;
+}
+
 .copyright__box {
   display: flex;
   justify-content: space-between;
