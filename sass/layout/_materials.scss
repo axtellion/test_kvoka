@@ -1,0 +1,51 @@
+.materials {
+  background-color: white;
+  padding: 150px 220px;
+
+  background-image:
+      url(../../images/materials-bg.jpg);
+}
+
+.materials__box {
+  text-align: center;
+}
+
+.materials__title {
+  color: var(--second-title-color);
+  font-size: 48px;
+  font-weight: 500;
+
+  margin-bottom: 40px;
+}
+
+.materials__list {
+  width: 561px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f1f1f1;
+
+  padding: 6px;
+  margin: 0 auto;
+  border-radius: 44px;
+
+  cursor: pointer;
+
+  margin-bottom: 66px;
+}
+
+.materials__item {
+  font-size: 18px;
+  padding: 4px 24px;
+}
+
+.materials__item:hover {
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 32px;
+}
+
+.active {
+  background-color: white;
+  border-radius: 32px;
+}
