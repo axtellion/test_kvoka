@@ -6,3 +6,10 @@ $(document).ready(function () {
   });
 });
 		
+$(document).ready(function () {
+  $(".testimonials__list").slick({
+    slidesToShow: 3,
+    infinite: false,
+    draggable: false,
+  });
+});
