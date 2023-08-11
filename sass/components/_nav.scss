@@ -18,6 +18,10 @@
   }
 }
 
+.nav__item .nav__list:hover{
+  color: var(--accent-color);
+}
+
 .nav__list {
   font-size: 14px;
   text-transform: uppercase;
